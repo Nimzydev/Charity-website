@@ -115,7 +115,7 @@ const Navbar = () => {
                 </li>
             <li onClick={donateActive} onMouseEnter={helpEnter} className={menu==='donate'? "active": ""}>
                 HOW YOU CAN HELP 
-                <IoIosArrowDown className='arrow-btn' />: 
+                <IoIosArrowDown className='arrow-btn' /> 
                 {helpDropDown && <Help helpLeave={helpLeave} />}
                 </li>
             <IoMdMenu/>
