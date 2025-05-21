@@ -1,0 +1,56 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.logo-img{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.arrow-btn{
+    font-size: 15px;
+}
+
+ 
+
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    cursor: pointer;
+    
+}
+
+.nav1:hover{
+    color: chartreuse;
+}
+
+.nav2:hover{
+    color: chartreuse;
+}
+
+
+
+.nav3:hover{
+    color: gold;
+}
+
+.nav3{
+    background-color: aqua;
+    
+}
+
+.nav-menu li{
+    font-size: 20px;
+}
+
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid chartreuse;
+}

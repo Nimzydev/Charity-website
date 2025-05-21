@@ -1,0 +1,20 @@
+.about-us{
+    padding: 20px;
+    position: absolute;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    background-color: gray;
+    z-index: 100;
+}
+
+.about-us >p{
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.about-us >p:hover{
+    color: gold;
+}

@@ -1,0 +1,20 @@
+.wwd{
+    position: absolute;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: gray;
+    z-index: 100;
+}
+
+.wwd >p{
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.wwd >p:hover{
+    color: gold;
+}

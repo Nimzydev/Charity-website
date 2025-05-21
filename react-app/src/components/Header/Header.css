@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+
+.first-section{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+
+.img1{
+    height: 400px;
+    width: 40vw;
+}
+
+.header-left{
+    background-color: red;
+    margin-top: 30px;
+    width: 60vw;
+    height: 400px;
+    padding: 50px;
+}
+
+.header-left >h1{
+    color: white;
+}
+
+.header-left >p{
+    color: white;
+}

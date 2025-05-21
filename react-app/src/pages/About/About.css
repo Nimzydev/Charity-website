@@ -1,0 +1,23 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    padding: 50px;
+    position: relative;
+}
+
+.about >p{
+
+    color: black;
+}
+
+.about >h1{
+    position: relative;
+    color:blue;
+    right: 0%;
+}
+
+.focal-areas span{
+    color: rgb(255, 217, 50);
+}
